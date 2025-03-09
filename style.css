@@ -168,6 +168,7 @@ transition: transform 0.3s ease-in-out;
   border: black solid 1px;
   padding: 7px 10px;
   color: white;
+  border-radius: 10px;
 }
 
 #message:checked ~ .form ,
