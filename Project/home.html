@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="container">
+
+    <input type="radio" id="page1"     name="pages" checked>
+    <input type="radio" id="page2"   name="pages">
+    <input type="radio" id="page3" name="pages">
+    <input type="radio" id="page4"  name="pages">
+    <input type="radio" id="page5"   name="pages">
+    <input type="radio" id="page6"       name="pages">
+
+    <nav>
+      <label for="page1"     >Home</label>
+      <label for="page2"  >Hobbies</label>
+      <label for="page3" >Birthday</label>
+      <label for="page4"  >Contact</label>
+      <label for="page5"   >Travel</label>
+      <label for="page6"       >CV</label>
+    </nav>
+
+    <div class="content">
+
+      <div class="pages" id="home">
+        <h1>Welcome to My Website</h1>
+        <p>Here you will find everything about me!</p>
+        <br>
+        <img src="img/محمد_الشناوى.png" alt="">
+        <br>
+        <p>My Name is <b>Mohamed Elshenawy</b></p>
+      </div>
+
+      <!-- ============================================ -->
+      
+      <div class="pages" id="hobbies">
+        <div class="hobbiescontent">
+            <div class="code">
+              <img src="img/coding.jpg" alt="" >
+              <br>
+              <p><b>Coding</b></p>
+            </div>
+
+            <div>
+              <div class="race">
+                <img src="img/copyracing.jpg" alt="" >
+                <p><b>Racing</b></p>
+              </div>
+              <div class="diving">
+                <img src="img/diving.jpg" alt="" >
+                <p><b>Diving</b></p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- ============================================ -->
+
+      <div class="pages" id="birthday">
+          <input type="radio" id="message" name="day"
+          checked>
+          <input type="radio" id="thank"  name="day">
+          <p>Please Wait...</p>
+          <img src="img/my birthday.jpg" alt="HappyBirthday">
+        <div class="form">
+          <textarea name="" id="" placeholder="Write a birthday message here" ></textarea>
+          <br>
+          <label for="thank"> Send </label>
+        </div>
+        <div class="submit" >
+          <p>Thank You For Message</p>
+        </div>
+      </div>
+      <!-- ============================================ -->
+
+      <div class="pages" id="contact">
+          <h2>Contact Us</h2>
+            <form action="#" id="us">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <br>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <br>
+                <button type="submit">Send Message</button>
+                <br>
+                <br>
+            </form>
+  
+            <div class="social-media">
+                <p>Follow us on:</p>
+                <br>
+                <a href="https://web.facebook.com/elshenawy5555" target="_blank">
+                    <img src="img/facebook.png" alt="Facebook">
+                </a>
+                <br>
+                <a href="https://www.instagram.com/elshenawy5555/" target="_blank">
+                    <img src="img/instgram.png" alt="Instagram">
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/mohamed-elshenawy-41463b244/" target="_blank">
+                    <img src="img/linkedin.png" alt="Twitter">
+                </a>
+            </div>
+      </div>
+      <!-- ============================================ -->
+
+      <div class="pages" id="travel">
+        <div class="slider-container">
+          <div class="slider">
+              <div class="slide">
+                  <h2>المملكة العربية السعودية</h2>
+                  <img src="img/ksa.jpg" alt="KSA">
+              </div>
+              <div class="slide">
+                  <h2>سلطنة عمان</h2>
+                  <img src="img/oman.jpg" alt="Oman">
+              </div>
+              <div class="slide">
+                  <h2>Italy</h2>
+                  <img src="img/italian.jpg" alt="Italy">
+              </div>
+              <div class="slide">
+                  <h2>Maldives</h2>
+                  <img src="img/maldeves.jpg" alt="Maldives">
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- ============================================ -->
+
+      <div class="pages" id="cv">
+        <img src="img/CV Resume.png" alt="CV">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
